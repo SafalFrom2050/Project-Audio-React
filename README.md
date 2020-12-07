@@ -1,5 +1,9 @@
 ## A minimal shared audio rooms concept app built with React
 
+![Alt text](https://raw.githubusercontent.com/SafalFrom2050/Project-Audio-React/main/screenshots/1.PNG "Screenshot 1")
+
+![Alt text](https://raw.githubusercontent.com/SafalFrom2050/Project-Audio-React/main/screenshots/3.png "Screenshot 2")
+
 ### Immediate Plans:
 
 - Authentication
