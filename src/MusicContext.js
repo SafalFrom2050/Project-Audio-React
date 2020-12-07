@@ -5,6 +5,7 @@ export const MusicContext = createContext();
 
 export const MusicProvider = props =>{
     const [musicList, setMusicList] = useState([
+        
       ]);
 
     const [musicPlayerEnabled, setMusicPlayerEnabled] = useState(false);
