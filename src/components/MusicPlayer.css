@@ -1,0 +1,67 @@
+.player-container {
+  height: 30vh;
+  width: 40vh;
+  position: fixed;
+  right: 0;
+  bottom: 0;
+
+  margin: 24px;
+  border-radius: 12px;
+  box-shadow: 2px 2px 8px #c1272d80;
+
+  background-image: linear-gradient(to right, #f7931e80, #ff000080, #c1272d80);
+
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  color: white;
+  padding: 0;
+}
+
+.hidden {
+  visibility: gone;
+}
+.hidden > * {
+  display: none;
+}
+
+.player-container > .music-image {
+  height: 54px;
+  width: 54px;
+  background: url("../images/music_image_frames.png");
+  animation: music-player-anim 1.5s steps(8) infinite forwards;
+  filter: invert(100%);
+}
+
+.player-container > h4 {
+  margin: 0;
+  width: 80%;
+}
+
+.player-container:hover {
+  transition: height 0.5s, width 0.5s;
+  height: 60vh;
+  width: 80vh;
+  cursor: pointer;
+}
+.player-container:hover > .music-image {
+  margin-top: 20%;
+  transition: transform 0.5s;
+  transform: scale(2);
+}
+
+.player-container:hover > h3,
+.player-container:hover > h4 {
+  margin: auto;
+  margin-bottom: 16px;
+}
+
+@keyframes music-player-anim {
+  from {
+    background-position-x: 0px;
+  }
+  to {
+    background-position-x: -432px;
+  }
+}

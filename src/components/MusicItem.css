@@ -1,0 +1,80 @@
+.music-item-container {
+  height: 50px;
+  width: 40%;
+  margin: 12px;
+
+  background-image: linear-gradient(
+    to right,
+    #00ffff30 1%,
+    #29abe240 10%,
+    #0071bc40 50%
+  );
+
+  border-radius: 12px;
+  box-shadow: 2px 2px 16px #3399ff44;
+
+  /* display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-items: center; */
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  padding: 8px;
+  padding-left: 12px;
+  font-size: medium;
+
+  transition: height 0.2s;
+}
+
+.big {
+  height: 100px;
+  width: 60%;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  font-size: medium;
+}
+
+.music-item-container:hover {
+  cursor: pointer;
+  transition: transform 0.2s;
+  transform: scale(1.1);
+  box-shadow: 4px 4px 16px #3399ff44;
+}
+
+.music-image-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+.now-playing {
+  background: url("../images/triangle.svg") no-repeat;
+  background-size: contain;
+  height: 150px;
+  width: 30%;
+  margin-right: 2rem;
+}
+
+.now-playing > .music-image {
+  transform: scale(2);
+  filter: invert(100%);
+}
+
+.bigger-title {
+  font-size: xx-large;
+}
+
+.music-image {
+  height: 30px;
+  width: 30px;
+  margin: 2rem;
+}
+
+.music-item-container > h3 {
+  width: 100%;
+  justify-items: center;
+  color: #0066cc;
+  font-size: medium;
+}
