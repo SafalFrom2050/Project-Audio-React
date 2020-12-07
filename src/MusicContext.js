@@ -22,12 +22,5 @@ export const MusicProvider = props =>{
 // Sample Data
 
 
-// {name:"Hello, You Beautiful Thing", nowPlaying:true},
-// {name:"Pretty Awkward", nowPlaying:false},
-// {name:"Change Everything", nowPlaying:false},
-// {name:"Beautiful Mess", nowPlaying:false},
-// {name:"Come Alive", nowPlaying:false},
-// {name:"Riptide", nowPlaying:false},
-// {name:"Riptide", nowPlaying:false},
-// {name:"Riptide", nowPlaying:false},
-// {name:"Riptide", nowPlaying:false}
+// {name:"Hello, You Beautiful Thing", nowPlaying:true, file:fileeee},
+// {name:"Pretty Awkward", nowPlaying:false, file:fileee},
